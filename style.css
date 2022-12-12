@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  /* margin: 0; */
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.img-con {
+  margin-bottom: 20px;
+  width: 100%;
+  background-image: url(./img/jelmer.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+}
+.text-con {
+  width: 50%;
+}
+p {
+  margin-left: 10px;
+}
+
+body {
+  background-color: red;
+  color: white;
+}
